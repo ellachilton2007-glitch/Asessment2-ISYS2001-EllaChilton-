@@ -21,6 +21,3 @@ Google Colab
 Development
 
 This project will be developed in stages, with testing and documentation completed throughout development.
-
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1l5n-wxIv-8tKIblbcmE3FReVe9AOaTal#scrollTo=R4tN-TCB94In)
-
