@@ -273,7 +273,7 @@ print("Test 7 passed: Empty data is rejected.")
 print("All invalid-data tests passed!")
 
 
-What I kept, changed and why: I used some automated tests because they helped me check whether the program returned the expected results. I also tested what happened when a transaction had a missing amount. All tests showed the right outcome. 
+What I kept, changed and why: I used some automated tests because they helped me check whether the program returned the expected results. All tests showed the right outcome. 
 Test 1 passed: Total spending is correct 
 Test 2 passed: Category spending is correct 
 Test 3 passed: Biggest category is correct
