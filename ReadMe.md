@@ -21,7 +21,9 @@ Technologies:
 
 Sample Input:
 The assistant uses a CSV file containing transaction information with three columns: Description, Category and Amount.
+
 Example:
+
 Descriptions: Supermarket, Bus card, Food shop and Cinema
 
 Category: Groceries, Transport, Groceries and Entertainment 
