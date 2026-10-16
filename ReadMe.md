@@ -37,3 +37,13 @@ Transport: $20
 Entertainment: $30
 
 Highest-spending category: Groceries — $100
+
+
+
+How to Run the Project
+1. Open the notebook in Google Colab.
+2. Add your Gemini API key to Google Colab Secrets using the name GEMINI_API_KEY.
+3. Run the notebook cells in order, starting from the top.
+4. Upload a CSV file containing the columns Description, Category and Amount.
+5. Enter a question about your spending.
+6. Read the response provided by the Personal Spending Assistant.
