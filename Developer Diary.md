@@ -1,5 +1,5 @@
-Developer Diary
-Diary Entry 1: Understanding the Assessment – 29th September 2026
+# Developer Diary
+# Diary Entry 1: Understanding the Assessment – 29th September 2026
 What I was trying to do: I wanted to understand the assessment requirements and plan what my Personal Spending Assistant needed to do before I started coding.
 
 AI prompt: “I am creating a personal spending assistant for my programming assessment. What should the main objectives of my assistant be, and what features should I include to make it as effective and useful as possible? I want it to help users understand their spending, analyse transaction data and answer questions about their finances.”
@@ -23,7 +23,7 @@ What I rejected or corrected: I didn’t need to reject or correct anything as I
 
 
 
-Diary Entry 2: Creating the Spending Calculations – 3rd October 2026
+# Diary Entry 2: Creating the Spending Calculations – 3rd October 2026
 What I was trying to do: I wanted to use Python and pandas to calculate total spending, spending by category and the biggest spending category.
 
 AI prompt: I asked AI to help me create the spending calculations. It provided example code using pandas, including sum(), groupby() and idxmax().
@@ -41,7 +41,7 @@ I also had to rerun a function after getting a NameError. This happened because 
 
 
 
-Diary Entry 3: Sample CSV Files – 4th October 2026
+# Diary Entry 3: Sample CSV Files – 4th October 2026
 What I was trying to do: I wanted the program to read transaction information from a CSV file instead of relying only on data written directly in the code.
 AI prompt: 
 "For my Personal Spending Assistant, I need to work with transaction data stored in a CSV file. Can you help me create a sample CSV file so that I can understand the whole process before I create an actual one? The file will contain Description, Category and Amount columns. Keep the code consistent with a beginner-level Google Colab notebook. Please include .read_csv code along with printing the upload so that the user can see all their expenses.”
@@ -53,7 +53,7 @@ What I rejected or corrected: I didn’t need to change any of the code AI gave 
 
 
 
-Diary Entry 4: Creating CSV Files 4th October 2026
+# Diary Entry 4: Creating CSV Files 4th October 2026
 What I was trying to do: After understanding and following an example with AI, I wanted to now create code where a user can upload their CSV file and the code reads it and provides an overview of expenses. 
 
 AI Prompt: 
@@ -68,7 +68,7 @@ What I rejected or corrected: I didn’t reject any of the code, but I did add a
 
 
 
-Diary Entry 5: Creating the User Interface – 6th October 2026
+# Diary Entry 5: Creating the User Interface – 6th October 2026
 What I was trying to do: I wanted to make my program easier to use by creating an interface where users could interact with the spending assistant.
 
 AI Prompt: "I have already written a spending_summary(df) function and a check_transactions(df) validation function for my Personal Spending Assistant. I now want to make these features accessible through Gradio in Google Colab. I am not familiar with Gradio, so I need your help to build a simple interface that allows a non-programmer to upload a CSV file and receive their total spending, spending by category and highest-spending category. Reuse my existing functions rather than duplicating their logic. Explain how the uploaded file reaches the analysis function and make sure invalid or empty files produce a clear error message instead of crashing. Keep the code simple enough for me to explain in my assessment."
@@ -136,7 +136,7 @@ What I rejected or corrected: I did not keep the welcome message as the final in
 
 
 
-Diary Entry 6: Connecting Gemini – 11th October 
+# Diary Entry 6: Connecting Gemini – 11th October 
 What I was trying to do: I wanted users to ask questions about their spending and get AI-generated answers based on their transaction information.
 At this point of the assessment, I created a new Repository. I wanted to reformat my code and layout, so I created a new Repository and copied all my information into it. 
 
@@ -237,7 +237,7 @@ What I rejected or corrected: I did not want Gemini to invent financial informat
 
 
 
-Diary Entry 7: Testing and Fixing Errors – 13th October 
+# Diary Entry 7: Testing and Fixing Errors – 13th October 
 What I was trying to do: I wanted to check that my program worked correctly with valid data and handled incorrect data appropriately.
 
 AI prompt: I asked AI how to test my program using Python assert statements and how to check for invalid transaction data. It suggested tests for spending totals, category totals, missing columns, negative amounts and empty data.
@@ -316,7 +316,7 @@ def check_transactions(df):
 Changed to this code.
 
 I then ran another test to confirm that missing amounts were rejected. 
-# Create transaction data with a missing amount
+Create transaction data with a missing amount
 missing_amount_df = pd.DataFrame({
     "Description": ["Supermarket", "Bus card"],
     "Category": ["Groceries", "Transport"],
@@ -324,5 +324,6 @@ missing_amount_df = pd.DataFrame({
 })
 
 print(check_transactions(missing_amount_df))
+
 This made the validation more reliable.
 
