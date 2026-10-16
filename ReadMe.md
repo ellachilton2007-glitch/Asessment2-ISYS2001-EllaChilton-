@@ -13,8 +13,4 @@ Display an interactive interface using Gradio.
 Handle invalid inputs and test the program.
 
 Technologies:
-Python
-Pandas
-Google Gemini API
-Gradio
-Google Colab
+Python, Pandas, Google Gemini API, Gradio & Google Colab
