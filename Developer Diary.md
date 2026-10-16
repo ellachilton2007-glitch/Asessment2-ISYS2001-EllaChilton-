@@ -6,8 +6,8 @@ AI prompt: “I am creating a personal spending assistant for my programming ass
 
 Response: 
 “I would recommend making the personal spending assistant simple to use, accurate and helpful for understanding spending habits. The main objectives should be:
-•Analyse spending: Calculate total spending and show how much money is spent in each category.
-•Identify spending patterns: Find the category where the user spends the most money.
+- Analyse spending: Calculate total spending and show how much money is spent in each category.
+- Identify spending patterns: Find the category where the user spends the most money.
 •Read transaction data: Allow users to upload a CSV file containing their transactions.
 •Answer questions: Use Gemini AI to answer questions about the user's spending based on their actual transaction data.
 •Validate data: Check for missing information, incorrect values and other errors before analysing transactions.
