@@ -18,6 +18,3 @@ Pandas
 Google Gemini API
 Gradio
 Google Colab
-Development
-
-This project will be developed in stages, with testing and documentation completed throughout development.
