@@ -8,11 +8,11 @@ Response:
 “I would recommend making the personal spending assistant simple to use, accurate and helpful for understanding spending habits. The main objectives should be:
 - Analyse spending: Calculate total spending and show how much money is spent in each category.
 - Identify spending patterns: Find the category where the user spends the most money.
-•Read transaction data: Allow users to upload a CSV file containing their transactions.
-•Answer questions: Use Gemini AI to answer questions about the user's spending based on their actual transaction data.
-•Validate data: Check for missing information, incorrect values and other errors before analysing transactions.
-•Provide an easy interface: Use Gradio so users can upload their files and interact with the assistant without needing to run Python code themselves.
-•Handle errors and unclear questions: Give helpful messages when a file is incorrect or a question cannot be answered using the available data.
+- Read transaction data: Allow users to upload a CSV file containing their transactions.
+- Answer questions: Use Gemini AI to answer questions about the user's spending based on their actual transaction data.
+- Validate data: Check for missing information, incorrect values and other errors before analysing transactions.
+- Provide an easy interface: Use Gradio so users can upload their files and interact with the assistant without needing to run Python code themselves.
+- Handle errors and unclear questions: Give helpful messages when a file is incorrect or a question cannot be answered using the available data.
 To make the assistant as effective as possible, I would recommend testing each feature with different transaction examples, checking that calculations are correct and making sure the AI does not make up financial information that is not supported by the user's data. Planning these features before coding will help keep the project organised and ensure the assistant meets its main purpose.”
 
 What I kept, changed and why: I considered all that AI said would make my assistant easy to use while keeping it accurate and helpful. I used the different transaction examples, as it allowed me to calculate and see if what I got was the same as what AI was giving me.
